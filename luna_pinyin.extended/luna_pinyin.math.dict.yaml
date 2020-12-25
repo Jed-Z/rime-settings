@@ -1,0 +1,108 @@
+# Jed
+name: math
+version: "2020.12.25"
+sort: origin
+...
+
+# 小写希腊字母
+α	alpha
+β	beta
+γ	gamma
+δ	delta
+ε	epsilon
+ζ	zeta
+η	eta
+θ	theta
+ι	iota
+κ	kappa
+λ	lambda
+μ	mu
+ν	nu
+ξ	xi
+ο	omicron
+π	pi
+ρ	rho
+σ	sigma
+τ	tau
+υ	upsilon
+φ	phi
+χ	chi
+ψ	psi
+ω	omega
+
+Α	Alpha
+Β	Beta
+Γ	Gamma
+Δ	Delta
+Ε	Epsilon
+Ζ	Zeta
+Η	Eta
+Θ	Theta
+Ι	Iota
+Κ	Kappa
+Λ	Lambda
+Μ	Mu
+Ν	Nu
+Ξ	Xi
+Ο	Omicron
+Π	Pi
+Ρ	Rho
+Σ	Sigma
+Τ	Tau
+Υ	Upsilon
+Φ	Phi
+Χ	Chi
+Ψ	Psi
+Ω	Omega
+
+# 其他数学符号
+×	times
+÷	div
+≤	le
+≥	ge
+≠	ne
+≡	equiv
+≅	cong
+≈	approx
+
+∀	forall
+∃	exists
+∈	in
+∉	notin
+∋	ni
+⊂	subset
+⊃	supset
+⊆	subseteq
+⊇	supseteq
+∩	cap
+∪	cup
+∅	empty
+∅	varnothing
+∅	kong ji
+
+¬	neg
+∧	and
+∧	wedge
+∨	or
+∨	vee
+→	to
+
+∂	partial
+∇	nabla
+∞	infty
+ℵ	aleph
+√	sqrt
+√	surd
+±	pm
+
+∘	circ
+⊕	oplus
+⊗	otimes
+∏	prod
+∐	coprod
+∫	int
+∮	oint
+
+
+
+
