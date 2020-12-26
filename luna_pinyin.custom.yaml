@@ -43,14 +43,14 @@ patch:
   emoji_suggestion:
     opencc_config: emoji.json
     option_name: emoji_suggestion
-    # tips: all
+    tips: none
 
-  # 以词定字
-  "engine/processors/@before 0": lua_processor@select_character_processor
+  # lua扩展
+  "engine/processors/@before 0": lua_processor@select_character_processor  # 以词定字
+  # "engine/translators/@next": lua_translator@date_translator  # 日期输入
 
   # 中英混输
   __include: easy_en:/patch
   easy_en/enable_sentence: false
 
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
-  
