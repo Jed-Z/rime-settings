@@ -10,5 +10,4 @@ import_tables:
   - luna_pinyin.extended/luna_pinyin.cn_en
   - luna_pinyin.extended/luna_pinyin.poetry
   - luna_pinyin.extended/luna_pinyin.math
-  - luna_pinyin.extended/luna_pinyin.kaomoji
 ...

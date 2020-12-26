@@ -68,5 +68,3 @@ patch:
   recognizer/patterns/reverse_lookup: "u[a-z]*'?$" # 'u'开头
   reverse_lookup/prefix: "u"
   reverse_lookup/tips: 〔笔画〕
-
-jedtestlist:
