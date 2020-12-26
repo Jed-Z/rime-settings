@@ -1,10 +1,9 @@
 # Jed
-name: math
+name: luna_pinyin.math
 version: "2020.12.25"
 sort: origin
 ...
 
-# 小写希腊字母
 α	alpha
 β	beta
 γ	gamma
@@ -55,7 +54,6 @@ sort: origin
 Ψ	Psi
 Ω	Omega
 
-# 其他数学符号
 ×	times
 ÷	div
 ≤	le
@@ -102,7 +100,3 @@ sort: origin
 ∐	coprod
 ∫	int
 ∮	oint
-
-
-
-
