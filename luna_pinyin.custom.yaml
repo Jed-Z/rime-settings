@@ -17,11 +17,11 @@ patch:
       "=": "="
       "[": "【"
       "]": "】"
-      '{' : [ "{",『, 〖, ｛ ]
-      '}' : [ "}", 』, 〗, ｝ ]
+      '{' : [ "{",『, 〖 ]
+      '}' : [ "}", 』, 〗]
       "'": { pair: ["「", "」"] }
       "/": "/"
-      "\\": "\\"
+      "\\": "、"
       "<": "《"
       ">": "》"
     symbols:
@@ -48,7 +48,6 @@ patch:
 
   # lua扩展
   "engine/processors/@before 0": lua_processor@select_character_processor  # 以词定字
-  # "engine/translators/@next": lua_translator@date_translator  # 日期输入
 
   # 中英混输
   __include: easy_en:/patch
@@ -56,13 +55,12 @@ patch:
 
   # 简拼与纠错
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
-  speller/algebra/@8: ""                    # 删除规则"derive/iu$/iou/"
   speller/algebra/+/+:
     - derive/i$/ii/                         # ii -> i
     - derive/u$/uu/                         # uu -> u
     - derive/(^[zcs])h([aeiou])ng$/$1hn$2g/ # shnag -> shang
-    - derive/^([jqxy])u/$1v/                # ju = jv
-    - derive/ui$/uei/                       # gui = guei
+    - derive/^([jqxy])u/$1v/                # jv -> ju
+    - derive/ui$/uei/                       # guei -> gui
 
   # 笔画反查
   recognizer/patterns/reverse_lookup: "u[a-z]*'?$" # 'u'开头
