@@ -1,7 +1,7 @@
 # Jed
 patch:
   style:
-    color_scheme: mac
+    color_scheme: apathy
 
   preset_color_schemes:
     mac:
@@ -26,6 +26,25 @@ patch:
       inline_preedit: true #设置是否双行显示
       label_color: 0x888888 #普通标签的颜色(非第一候选字)，也就是候选字数字
       label_font_point: 12 #普通标签的字体大小
+    apathy:
+      author: "LIANG Hai"
+      back_color: 0xFFFFFF
+      border_height: 0
+      border_width: 8
+      candidate_format: "%c %@ "
+      comment_text_color: 0x999999
+      corner_radius: 5
+      # font_face: PingFangSC
+      # font_face: "PingFangSC-Regular,HanaMinB"
+      font_point: 16
+      hilited_candidate_back_color: 0xFFF0E4
+      hilited_candidate_text_color: 0xEE6E00
+      horizontal: true
+      inline_preedit: true
+      # label_font_face: "STHeitiSC-Light"
+      label_font_point: 12
+      name: "冷漠／Apathy"
+      text_color: 0x424242
 
   app_options:
     com.apple.finder:
