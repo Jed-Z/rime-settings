@@ -1,6 +1,8 @@
-# Jed
+# EZ Rime Settings (by Jed)
+# https://github.com/Jed-Z/ez-rime-settings
+
 name: luna_pinyin.math
-version: "2020.12.25"
+version: "2020.12.28"
 sort: origin
 ...
 
@@ -58,7 +60,7 @@ sort: origin
 ÷	div
 ≤	le
 ≥	ge
-≠	ne
+≠	neq
 ≡	equiv
 ≅	cong
 ≈	approx
@@ -75,22 +77,18 @@ sort: origin
 ∩	cap
 ∪	cup
 ∅	empty
-∅	varnothing
-∅	kong ji
 
 ¬	neg
 ∧	and
 ∧	wedge
 ∨	or
 ∨	vee
-→	to
 
 ∂	partial
 ∇	nabla
 ∞	infty
 ℵ	aleph
 √	sqrt
-√	surd
 ±	pm
 
 ∘	circ
