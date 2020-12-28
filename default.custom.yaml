@@ -1,3 +1,6 @@
+# EZ Rime Settings (by Jed)
+# https://github.com/Jed-Z/ez-rime-settings
+
 patch:
   schema_list:
     - schema: luna_pinyin

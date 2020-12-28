@@ -1,4 +1,6 @@
-# Jed
+# EZ Rime Settings (by Jed)
+# https://github.com/Jed-Z/ez-rime-settings
+
 patch:
   style:
     color_scheme: apathy
@@ -46,20 +48,4 @@ patch:
       name: "冷漠／Apathy"
       text_color: 0x424242
 
-  app_options:
-    com.apple.finder:
-      ascii_mode: true
-    com.apple.Spotlight:
-      ascii_mode: true
-    com.apple.systempreferences:
-      ascii_mode: true
-    com.apple.ActivityMonitor:
-      ascii_mode: true
-    com.apple.Terminal:
-      ascii_mode: true
-    com.googlecode.iterm2:
-      ascii_mode: true
-    com.sublimetext.3:
-      ascii_mode: true
-    com.eusoft.eudic:
-      ascii_mode: true
+  app_options: # 禁止自动切换中英文
