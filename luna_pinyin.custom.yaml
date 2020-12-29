@@ -46,6 +46,8 @@ patch:
     option_name: emoji_suggestion
     tips: none
 
+  "engine/translators/@before 0": echo_translator  # 无候选时显示原输入
+
   # lua扩展
   "engine/processors/@before 0": lua_processor@select_character_processor  # 以词定字
 
