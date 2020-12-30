@@ -4,3 +4,7 @@
 * Emoji联想：[rime-emoji](https://github.com/rime/rime-emoji)
 * 以词定字：[rime-lua-select-character](https://github.com/BlindingDark/rime-lua-select-character)
 * 部分纠错规则：[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)
+* 词库来源：
+    * [xiaoTaoist/rime-dict](https://github.com/xiaoTaoist/rime-dict)（主要）
+    * [rime-aca/dictionaries](https://github.com/rime-aca/dictionaries)
+    * [Iorest/rime-dict](https://github.com/Iorest/rime-dict)
