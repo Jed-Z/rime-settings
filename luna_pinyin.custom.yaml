@@ -1,4 +1,6 @@
-# Jed
+# EZ Rime Settings (by Jed)
+# https://github.com/Jed-Z/ez-rime-settings
+
 patch:
   translator/dictionary: luna_pinyin.extended
   recognizer/patterns/punct: "^i([A-Za-z]{1,3})$" # 'i'后面跟1~3个字母
@@ -18,14 +20,9 @@ patch:
   # 以词定字
   "engine/processors/@before 0": lua_processor@select_character_processor
 
-  # 中英混输
-  __include: easy_en:/patch
-  easy_en/enable_sentence: false
-  easy_en/initial_quality: 0
-
   # 拼写运算
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/ # 简拼
-  speller/algebra/+/+:
+  speller/algebra/+:
     - derive/i$/ii/                         # ii -> i
     - derive/u$/uu/                         # uu -> u
     - derive/(^[zcs])h([aeiou])ng$/$1hn$2g/ # shnag -> shang
