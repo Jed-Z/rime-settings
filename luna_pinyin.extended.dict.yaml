@@ -15,4 +15,5 @@ import_tables:
   - luna_pinyin.extended/luna_pinyin.computer
   - luna_pinyin.extended/luna_pinyin.sgmain
   - luna_pinyin.extended/luna_pinyin.english
+  - luna_pinyin.extended/luna_pinyin.shopping
 ...
