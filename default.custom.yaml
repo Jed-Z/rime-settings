@@ -4,6 +4,7 @@
 patch:
   schema_list:
     - schema: luna_pinyin
+    - schema: double_pinyin_flypy
 
   switcher/caption: 〔设置菜单〕
   switcher/hotkeys:
