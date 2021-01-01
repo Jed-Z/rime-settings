@@ -1,0 +1,22 @@
+# EZ Rime Settings (by Jed)
+# https://github.com/Jed-Z/ez-rime-settings
+
+patch:
+  translator/dictionary: luna_pinyin.extended
+  recognizer/patterns/punct: "^i([A-Za-z]{1,3})$" # 'i'后面跟1~3个字母
+  "engine/translators/@before 0": echo_translator # 无候选时显示原输入
+  punctuator/import_preset: symbols
+
+  # emoji联想
+  switches/@next:
+    name: emoji_suggestion
+    reset: 1
+    states: ["🈚️️\uFE0E", "🈶️️\uFE0F"]
+  "engine/filters/@before 1": simplifier@emoji_suggestion
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: none
+
+  # 以词定字
+  "engine/processors/@before 0": lua_processor@select_character_processor
