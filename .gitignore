@@ -3,3 +3,4 @@ installation.yaml
 build/
 *.userdb/
 custom_phrase.txt
+sync/
