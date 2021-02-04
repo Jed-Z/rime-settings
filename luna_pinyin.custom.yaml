@@ -17,9 +17,6 @@ patch:
     option_name: emoji_suggestion
     tips: none
 
-  # 以词定字
-  "engine/processors/@before 0": lua_processor@select_character_processor
-
   # 拼写运算
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/ # 简拼
   speller/algebra/+:
